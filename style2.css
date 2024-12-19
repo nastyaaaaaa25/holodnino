@@ -1,0 +1,260 @@
+@import url('./fontstyle.css');
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.hrefs{
+
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.hrefs p{
+     color: white;
+     margin: 0;
+    font-family: 'Yan';
+    font-weight: 500;
+    font-size: 28px;
+}
+.hrefs a{
+text-decoration: none;
+
+}
+nav img{
+    height: 40px;
+}
+nav{
+    width: 80px;
+}
+#num{
+    font-size: 35px;
+}
+.navbar{
+    width: 1920px;
+    height: 80px;
+
+}
+.navbar .container-fluid{
+    background-color: #022B4B;
+    height: 80px !important;
+}
+.section-first{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 50px 0;
+    height: 40%;
+    justify-content: center;
+}
+ .section-first p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Zen';
+    color: #022B4B;
+    padding-left:200px ;
+}
+.section-second p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Zen';
+    color: #022B4B;
+    padding-left:200px ;
+}
+.zag{
+    color: #022B4B;
+    font-size: 60px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.zag2{
+    font-family: 'Yan';
+    font-size: 45px;
+    color: #022B4B;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    width: 1647px;
+    padding: 0px  0 30px 200px;
+}
+.section-second{
+    width: 1920px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    height: 40%;
+}
+.section-second .information{
+    line-height: 40px;
+}
+.section-second button{
+    width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #022B4B 2px solid;
+    color:#ffffff;
+    margin: 50px 0 0 850px;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+
+}
+.section-second button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.section-second button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.section-second button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+    padding: 0;
+}
+.section-second button:hover p{
+    color: #ffffff; 
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.section-footer {
+	flex: 0 0 auto;
+    background-color: #022B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer .information{
+    border-bottom:#ffffffc3 2px solid;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Zen';
+    line-height: 200%;
+    font-weight: 200;
+}
+.section-footer p{
+    color: #ffffff;
+}
+.section-footer .left{
+width: 32%;
+margin-left: 20px ;
+}
+.section-footer .information .mid{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .section-footer .information .mid .hrefs{
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-footer .information .mid a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Zen';
+        line-height: 200%;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .section-footer .information .right{
+        width:32%;
+        margin-right: 20px;
+        }
+        .director{
+            padding: 20px 0;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Zen';
+            line-height: 200%;
+            font-weight: 200;
+        }
+        .obl1 {
+            width: 1920px;
+            height: 500px;
+            transform: translateY(250px);
+            overflow: hidden;
+        }
+        #obl1{
+transform: translateX(1300px);
+transition: 3.5s;
+        }
+        #obl1:hover{
+            transform: translateX(1500px);
+                    }
+        .obl2 {
+            width: 1920px;
+            height: 500px;
+            transform: translateY(-170px);
+            overflow: hidden;
+        }
+        #obl2{
+transform: translateX(-200px);
+transition: 3.5s;
+height: 400PX;
+        }
+        #obl2:hover{
+            transform: translateX(-400px);
+                    }                    

@@ -1,0 +1,42 @@
+@font-face {
+    font-family:"Zen" ;
+    src: url(./fonts/ZenMaruGothic-Black.ttf);
+    font-weight:700;
+    font-style: bold;
+}
+@font-face {
+    font-family:"Zen" ;
+    src: url(./fonts/ZenMaruGothic-Medium.ttf);
+    font-weight:400;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Zen" ;
+    src: url(./fonts/ZenMaruGothic-Light.ttf);
+    font-weight:200;
+    font-style: thin;
+}
+@font-face {
+    font-family:"Zen" ;
+    src: url(./fonts/ZenMaruGothic-Regular.ttf);
+    font-weight:300;
+    font-style: thin;
+}
+@font-face {
+    font-family:"Yan" ;
+    src: url(./fonts/YanoneKaffeesatz.ttf);
+    font-weight:300;
+    font-style: thin;
+}
+@font-face {
+    font-family:"Yan" ;
+    src: url(./fonts/YanoneKaffeesatz.ttf);
+    font-weight:500;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Yan" ;
+    src: url(./fonts/YanoneKaffeesatz.ttf);
+    font-weight:700;
+    font-style: bold;
+}

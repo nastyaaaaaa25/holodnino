@@ -1,0 +1,491 @@
+@import url('./fontstyle.css');
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+a{
+    text-decoration: none !important;
+}
+.hrefs{
+
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.hrefs p{
+     color: white;
+     margin: 0;
+    font-family: 'Yan';
+    font-weight: 500;
+    font-size: 28px;
+}
+.hrefs a{
+text-decoration: none;
+
+}
+nav img{
+    height: 40px;
+}
+nav{
+    width: 80px;
+}
+#num{
+    font-size: 35px;
+}
+.navbar{
+    width: 1920px;
+    height: 80px;
+
+}
+.navbar .container-fluid{
+    background-color: #022B4B;
+    height: 80px !important;
+}
+
+.section-first{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;   
+}
+.section-first .container-condei{
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-first.text{
+    display: none;
+    color: #022B4B;
+    font-size: 20px;
+    font-family: 'Zen';
+    font-weight: 500;
+}
+.obl3{
+    transform: translateY(-1050px);
+    width: 1920px;
+    overflow: hidden;
+}
+#obl3{
+    transition: 4.5s;
+    transform:translateX(-600px);
+    
+}
+#obl3:hover{
+    transform:translateX(-900px);
+}
+.obl4{
+    transform: translateY(330px);
+    width: 1920px;
+    overflow: hidden;
+    z-index: 0;
+}
+#obl4{
+    transition: 4.5s;
+    transform:translateX(1600px)
+}
+#obl4:hover{
+    transform:translateX(1900px);
+}
+.container-condei {
+    border-bottom: #022b4ba5 solid 7px;
+}
+.container-condei input{
+    display: none;
+}
+.container-condei .text{
+    display: none;
+    font-family: 'Zen';
+    color:#022B4B;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+ #input1:checked ~ .perecluch .text1,
+ #input2:checked ~ .perecluch .text2,
+ #input3:checked ~ .perecluch .text3{
+    display: block;
+}
+ #input1:checked ~  #label1,
+ #input2:checked ~  #label2,
+ #input3:checked ~  #label3{
+    text-decoration: underline;
+}
+#input4:checked ~ .perecluch .text4,
+#input5:checked ~ .perecluch .text5,
+#input6:checked ~ .perecluch .text6{
+   display: block;
+}
+#input4:checked ~  #label4,
+#input5:checked ~  #label5,
+#input6:checked ~  #label6{
+   text-decoration: underline;
+}
+
+#input7:checked ~ .perecluch .text7,
+#input8:checked ~ .perecluch .text8,
+#input9:checked ~ .perecluch .text9{
+   display: block;
+}
+#input7:checked ~  #label7,
+#input8:checked ~  #label8,
+#input9:checked ~  #label9{
+   text-decoration: underline;
+}
+
+#input10:checked ~ .perecluch .text10,
+#input11:checked ~ .perecluch .text11,
+#input12:checked ~ .perecluch .text12{
+   display: block;
+}
+#input10:checked ~  #label10,
+#input11:checked ~  #label11,
+#input12:checked ~  #label12{
+   text-decoration: underline;
+}
+
+#input13:checked ~ .perecluch .text13,
+#input14:checked ~ .perecluch .text14,
+#input15:checked ~ .perecluch .text15{
+   display: block;
+}
+#input13:checked ~  #label13,
+#input14:checked ~  #label14,
+#input15:checked ~  #label15{
+   text-decoration: underline;
+}
+.carousel .text{
+display: none;
+font-family: 'Zen';
+color:#022B4B;
+font-size: 20px;
+font-weight: 300;
+margin: 0;
+}
+.carousel input{
+    display: none;
+}
+#input16:checked ~ .perecluch .text16,
+#input17:checked ~  .perecluch .text17,
+#input18:checked ~  .perecluch .text18,
+#input19:checked ~  .perecluch .text19,
+#input20:checked ~  .perecluch .text20,
+#input21:checked ~  .perecluch .text21,
+#input22:checked ~  .perecluch .text22,
+#input23:checked ~  .perecluch .text23,
+#input24:checked ~  .perecluch .text24{
+   display: block;
+}
+#input16:checked ~  #label16,
+#input17:checked ~  #label17,
+#input18:checked ~  #label18,
+#input19:checked ~  #label19,
+#input20:checked ~  #label20,
+#input21:checked ~  #label21,
+#input22:checked ~  #label22,
+#input23:checked ~  #label23,
+#input24:checked ~  #label24{
+    text-decoration: underline;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 576px !important;
+    border: none !important;
+    z-index: 1;
+}
+.card img#fun{
+    padding: 0;
+}
+.zag2{
+    color: #022B4B;
+    font-size: 45px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+#condei{
+    padding-bottom: 30px;
+}
+label{
+    color: #022B4B;
+    font-size: 26px;
+    font-family: 'Zen';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
+    
+}
+h5.cena{
+    padding-top: 40px;
+    color: #022B4B;
+    font-size: 50px;
+    font-family: 'Yan';
+    font-weight: 500;
+}
+.card img{
+    padding: 50px 60px 50px 0px;
+}
+.zag{
+    color: #022B4B;
+    font-size: 60px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.zag3{
+    color: #022B4B;
+    font-size: 35px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.section-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.carousel-inner{
+width: 577px !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-position: 50%;
+    background-size: 100% 100%;
+    color: #022B4B;
+    background-image: url(./img/arrow.svg) !important;
+    height: 50px !important;
+}
+.carousel-control-prev-icon{
+    transform: scale(-1, 1) translateX(150px);
+}
+.carousel-control-next-icon{
+    transform: translateX(150px);
+}
+
+div#dop.card .card-title{
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+#dop button{
+    width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #022B4B 2px solid;
+    color:#ffffff;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+#dop button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+#dop button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+#dop button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+}
+#dop button:hover p{
+    color: #ffffff; 
+}
+#dop .card-body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#dop {
+    width: 402px !important;
+    border:#022B4B 10px dashed !important;
+    padding: 10px 20px;
+}
+.section-third{
+    background-color: #022B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;padding: 50px 0 0 0 ;
+}
+.section-third p{
+    font-family: 'Zen';
+    color:#ffffff;
+    font-size:30px;
+    font-weight: 200;
+    margin: 0;
+}
+.section-third .zag{
+    color: #ffffff;
+}
+.section-third .zag3{
+    color: #ffffff;
+    font-size: 45px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 1920px;
+}
+.download p{
+    width: 57%;
+}
+.container-usl{
+    width: 50%;
+    border-right: #ffffff solid 2px;
+}
+.container-obor{
+    width: 40%;
+}
+.download button{
+    width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #ffffff 2px solid;
+    color:#ffffff;
+    margin: 50px 0 0 0;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.download button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.download button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+}
+.download button:hover p{
+    color: #ffffff; 
+}
+.section-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #022B4B;
+    padding: 100px 0 0 0;
+}
+.container-footer{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    border-bottom:#ffffffc3 2px solid;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Zen';
+    line-height: 200%;
+    font-weight: 200;
+}
+.section-footer p{
+    color: #ffffff;
+}
+.information .left{
+width: 32%;
+}
+.information .mid{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .information .mid .hrefs{
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .information .mid a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Zen';
+        line-height: 200%;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .information .right{
+        width:20%;
+        }
+        .director{
+            padding: 20px 0;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Zen';
+            line-height: 200%;
+            font-weight: 200;
+        }
