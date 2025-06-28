@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="./style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./img/logo.svg" alt="Logo" height="24" class="d-inline-block align-text-top">
+          <div class="hrefs" type="zag"><a href="#sec2"><p>весь каталог</p></a><a href="./index.html"><p>главная</p></a><a href="#sec1"><p>линейки</p></a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="loginBtn">
+  <img src="./img/user-circle_svgrepo.com.svg">
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content mycontent"  id="loginForm">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+<div class="enter">
+          <h1 id="exampleModalLabel">ВХОД</h1>
+            <label for="username">Введите логин</label>
+            <input type="text" id="username">
+            <label for="password">Введите пароль</label>
+            <input type="text" id="password">
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" style="width: 100px;" class="btn btn-primary">Войти</button>
+      </div>
+    </form>
+  </div>
+</div>
+          </div>
+        </div>
+      </nav>
+      <div class="section-first" id="sec1">
+        
+          <div class="container-condei" id="app">
+            
+          <div class="zag" id="condei">сплиты</div>
+          <div class="search">
+            <input type="text" id="search" placeholder="введите фирму кондиционера">
+            <select id="selectSort">
+              <option value="none">Выберите значение сортировки</option>
+              <option value="min">min</option>
+              <option value="max">max</option>
+            </select>
+          </div>
+            <div class="cards" id="cardsContainer">
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">ULTIMA COMFORT</div>
+                <div class="card-body">
+                        <input checked type="radio" name="name1" id="input1">
+                        <input type="radio" name="name1" id="input2">
+                        <input type="radio" name="name1" id="input3">
+                        <label for="input1" id="label1" >IMP-07PN-IN</label>
+                        <label for="input2" id="label2" >IMP-09PN-IN</label>
+                        <label for="input3" id="label3" >IMP-12PN-IN</label>
+                        <div class="perecluch">
+                            <div class="text text1"><img src="./img/ultima.png">
+                                ULTIMA COMFORT (Ультима Комфорт) ECLIPSE ECS-07PN обеспечивает защиту от обдува холодным воздухом при включении устройства. При активации функции и перед началом работы аппарат подает воздух, прогретый электрическим нагревателем, чтобы избежать неприятного холодного потока в начальный период работы.<h5 class="cena">19 690₽</h5>
+                
+                            </div>
+                            <div class="text text2"><img src="./img/ultima.png">
+                                ULTIMA COMFORT (Ультима Комфорт) Impreza IMP-09PN — этот настенный кондиционер обладает стильным и современным дизайном, который легко сочетается с любым интерьером. Благодаря мощному компрессору типа on/off и режиму TURBO он обеспечивает быстрое достижение желаемых температур с высоким уровнем комфорта.<h5 class="cena">21 790₽
+                              </h5>
+                
+                            </div>
+                            <div class="text text3"><img src="./img/ultima.png">
+                                ULTIMA COMFORT (Ультима Комфорт) Impreza IMP-12PN представляет собой современное и эффективное устройство, разработанное для обеспечения уюта в интерьере. Режим комфортного сна снижает шум и настраивает работу на оптимальный уровень. Сплит-система славится своей надежностью и долговечностью, обеспечивая стабильную производительность в течение продолжительного периода времени.<h5 class="cena">28 590₽</h5></div>
+                        </div>
+              </div>
+              </div> 
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">XIGMA</div>
+                  <div class="card-body">
+                    <div class="section section-flags">
+                      <div class="radio">
+                          <input checked type="radio" name="name2" id="input4">
+                          <input type="radio" name="name2" id="input5">
+                          <input type="radio" name="name2" id="input6">
+                          <label for="input4" id="label4" >XG-EFD21RHA-IDU</label>
+                          <label for="input5" id="label5" >XG-EFD27RHA-IDU</label>
+                          <label for="input6" id="label6" >XG-EFD35RHA-IDU</label>
+                          <div class="perecluch">
+                              <div class="text text4"><img src="./img/xigma.png">
+                                Xigma XG-EFD21RHA-IDU/XG-EFD21RHA-ODU ExtraForce кондиционер с классическим управлением on-off. Кондиционеры Xigma серии ExtraForce оснащены антикоррозийным покрытием Golden Fin на наружном блоке. Это покрытие с диоксидом титана хорошо защищает кондиционер от воздействия дождя, снега и других агрессивных факторов внешней среды.
+                                Помимо 4 основных режимов работы есть режим самоочистки внутреннего блока и ночной режим. Самоочистка помогает поддерживать чистоту внутри прибора. Ночной режим позволяет создать более комфортные условия для сна.<h5 class="cena">19 990₽</h5>
+                              </div>
+                              <div class="text text5"><img src="./img/xigma.png">
+                                Xigma XG-EFD27RHA-IDU/XG-EFD27RHA-ODU ExtraForce кондиционер с классическим управлением on-off. Кондиционеры Xigma серии ExtraForce оснащены антикоррозийным покрытием Golden Fin на наружном блоке. Это покрытие с диоксидом титана хорошо защищает кондиционер от воздействия дождя, снега и других агрессивных факторов внешней среды.
+                                Помимо 4 основных режимов работы есть режим самоочистки внутреннего блока и ночной режим. Самоочистка помогает поддерживать чистоту внутри прибора. Ночной режим позволяет создать более комфортные условия для сна.
+                                <h5 class="cena">22 190₽</h5>
+                              </div>
+                              <div class="text text6"><img src="./img/xigma.png">
+                                Xigma XG-EFD35RHA-IDU/XG-EFD35RHA-ODU ExtraForce кондиционер с классическим управлением on-off. Кондиционеры Xigma серии ExtraForce оснащены антикоррозийным покрытием Golden Fin на наружном блоке. Это покрытие с диоксидом титана хорошо защищает кондиционер от воздействия дождя, снега и других агрессивных факторов внешней среды.
+                                Помимо 4 основных режимов работы есть режим самоочистки внутреннего блока и ночной режим. Самоочистка помогает поддерживать чистоту внутри прибора. Ночной режим позволяет создать более комфортные условия для сна.
+                                <h5 class="cena">29 290₽</h5></div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">МОРОЗКО</div>
+                <div class="card-body">
+                  <div class="section section-flags">
+                    <div class="radio">
+                        <input checked type="radio" name="name3" id="input7">
+                        <input type="radio" name="name3" id="input8">
+                        <label for="input7" id="label7" >КНБИ-БКЛ07ОН-ВБ</label>
+                        <label for="input8" id="label8" >КНБИ-БКЛ09ОН-ВБ</label>
+                        <div class="perecluch">
+                            <div class="text text7"><img src="./img/морозко.png">
+                                Наличие системы самодиагностики в настенной сплит – системе МОРОЗКО Байкал КНБИ-БКЛ07ОН позволяет контролировать рабочие процессы и обнаруживать возможные неисправности. Внутренний блок системы готов к установке Wi-Fi-модуля, чтобы управлять им можно было с помощью смартфона или планшета. Для очистки воздушных масс в блоке установлен противопылевой фильтр.
+                              <h5 class="cena">29 990₽</h5>
+                            </div>
+                            <div class="text text8"><img src="./img/морозко.png">
+                                Настенный кондиционер МОРОЗКО Байкал КНБИ-БКЛ09ОН произведен для бытового использования, оснащен инверторной технологией охлаждения и обогрева и относится к А классу энергоэффективности, обеспечивая существенное снижение потребления электроэнергии. Настраивать и управлять устройством просто и удобно, достаточно подключить пульт и осуществлять нажатие кнопок.
+                              <h5 class="cena">32 690₽</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 18rem;">
+              <div class="zag2">Mitsudai</div>
+              <div class="card-body">
+                <div class="section section-flags">
+                  <div class="radio">
+                      <input checked type="radio" name="name4" id="input9">
+                      <input type="radio" name="name4" id="input10">
+                      <label for="input9" id="label9" >MD-SNC18AI-IDU</label>
+                      <label for="input10" id="label10" >MD-SNC24AI-IDU</label>
+                      <div class="perecluch">
+                          <div class="text text9"><img src="./img/mitsudai 1.png">
+                            Классические сплит-системы SENTO работают в 4 режимах: охлаждение, нагрев, вентиляция и осушение. В линейке представлены пять моделей с индексами 7k, 9k, 12k, 18k и 24k. Создать оптимальную температуру в помещении можно в любой площади. Все сплит-системы имеют скрытый LED-дисплей, что позволяет устройству идеально вписаться в любой интерьер.
+                            <h5 class="cena">51 490₽</h5>
+                          </div>
+                          <div class="text text10"><img src="./img/mitsudai 1.png">
+                            Классические сплит-системы SENTO работают в 4 режимах: охлаждении, нагреве, вентиляции и осушении. В линейке представлены пять моделей с индексами 7k, 9k, 12k, 18k и 24k.
+                            Создать оптимальную температуру в помещении можно в любой площади. Все сплит-системы имеют скрытый LED-дисплей, что позволяет устройству идеально вписаться в любой интерьер.
+                            <h5 class="cena">63 090₽</h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="card mb-3" style="width: 18rem;">
+            <div class="zag2">ROYAL CLIMA</div>
+            <div class="card-body">
+              <div class="section section-flags">
+                <div class="radio">
+                    <input checked type="radio" name="name5" id="input11">
+                    <input type="radio" name="name5" id="input12">
+                    <input type="radio" name="name5" id="input13">
+                    <label for="input11" id="label11" >RC-GL22HN/IN</label>
+                    <label for="input12" id="label12" >RC-GL28HN/IN</label>
+                    <label for="input13" id="label13" >RC-PD35HN/IN</label>
+                    <div class="perecluch">
+                        <div class="text text11"><img src="./img/royal.png">
+                            Прекрасная модель сплит-системы Royal Clima (Роял Клима) GLORIA RC-GL22HN идеальна для размещения в небольших помещениях до 22 кв.м. Тонкая хромированная вставка на передней панели является украшением внутреннего блока и подчёркивает идеальные его формы. За белоснежным светопрозрачным пластиком скрыт LED- дисплей.<h5 class="cena">28 590₽</h5>
+                        </div>
+                        <div class="text text12"><img src="./img/royal.png">
+                            Настенная модель кондиционера Royal Clima (Роял Клима) GLORIA RC-GL28HN оснащена функцией запоминания положения жалюзи. После выключения и повторного включения кондиционера жалюзи будут установлены в положение, ранее заданное пользователем. Установленный надежный компрессор японского производства отвечает за работу всей сплит-системы, а дополнительная звукоизоляция компрессора обеспечивает низкий уровень наружного блока.
+                            <h5 class="cena">31 590₽</h5>
+                            </div>
+                            <div class="text text13"><img src="./img/royal.png">
+                                Кондиционер ROYAL Clima PANDORA RC-PD35HN обладает минималистичным и одновременно притягивающим взгляд дизайном. 
+                                К безусловным преимуществам серии можно отнести многоступенчатую систему очистки воздуха состоящую из 
+                                фильтров тонкой очистки Silver Ion и Active Carbon, а так же функции ионизации, значительно улучшающей 
+                                качество воздуха в помещении, уничтожающей вредоносные химические соединения и микробы(только для моделей 
+                                с индексами 22,28 и 35).<br> Помимо этого сплит-система оснащена функцией равномерного распределения воздушного 
+                                потока 3D AUTO AIR, которая позволяет управлять горизонтальными и вертикальными жалюзи внутреннего блока 
+                                с пульта управления, обеспечивая равномерное распределение воздушного потока по всему помещению или же его 
+                                фиксацию в одном необходимом направлении. А благодаря функции IFEEL вы всегда сможете отследить изменение 
+                                температурного показателя в месте нахождения пользователя.    
+                            <h5 class="cena">42 490₽</h5>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem;">
+            <div class="zag2">FUNAI</div>
+              <div class="card-body">
+                <div class="section section-flags">
+                  <div class="radio">
+                      <input checked type="radio" name="name6" id="input14">
+                      <input type="radio" name="name6" id="input15">
+                      <input type="radio" name="name6" id="input16">
+                      <label for="input14" id="label14" >RAC-SN20HP.D04/S</label>
+                      <label for="input15" id="label15" >RAC-SN25HP.D04/S</label>
+                      <label for="input16" id="label16" >RAC-SN35HP.D04/S</label>
+                      <div class="perecluch">
+                          <div class="text text14"><img src="./img/funai.png" id="fun">
+                            FUNAI (Фунай) SENSEI RAC-SN20HP.D04 представляет собой экономичную настенную сплит-систему, которая станет прекрасным выбором для небольшой спальни или другой комнаты, где нужна не только комфортная атмосфера, но и тишина. Внутренний блок оборудован встроенным ионизатором, который вырабатывает отрицательно заряженные частицы, что способствует устранению вредных микроорганизмов.
+                          <h5 class="cena">28 990₽</h5>
+                          </div>
+                          <div class="text text15"><img src="./img/funai.png" id="fun">
+                            Бесшумная инверторная сплит-система Funai (Фунай) SENSEI RAC-I-SN25HP.D04 отличается элегантным дизайном и передовым функционалом. Автоматическое управление воздушным потоком в четырех направлениях обеспечивает полноценный охват помещения, а технология DС PAM Inverter позволяет плавно изменять температуру и поддерживать ее точно на заданном уровне. Входящие в комплект фильтры с серебром делают воздух чистым и свежим.
+                          <h5 class="cena">31 390₽</h5>
+                          </div>
+                          <div class="text text16"><img src="./img/funai.png" id="fun">
+                            Модель настенной сплит-системы FUNAI (Фунай) SENSEI RAC-SN35HP.D04 поможет Вам избавиться от проблемы некомфортной атмосферы в помещении. Данный кондиционер будет актуален круглый год, поскольку работает и на охлаждение, и на обогрев. Предусмотренная в нем система фильтрации и ионизации воздуха позволит сделать воздух в комнате гораздо более чистым.
+                          <h5 class="cena">40 490₽</h5></div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">OPENAIR BY ZILON</div>
+                <div class="card-body">
+                        <input checked type="radio" name="name11" id="input25">
+                        <input type="radio" name="name11" id="input26">
+                        <input type="radio" name="name11" id="input27">
+                        <label for="input25" id="label25" >ZFO 100 Z</label>
+                        <label for="input26" id="label26" >ZFO 125 Z </label>
+                        <label for="input27" id="label27" >ZFO 160 Z</label>
+                        <div class="perecluch">
+                            <div class="text text25"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                               Доверьтесь нашему канальному вентилятору Zilon ZFO 100 Z для эффективной вентиляции в промышленных условиях — надежность, производительность и удобство в одном оборудовании. Производитель гарантирует, что аппарат выполняет все поставленные перед ним требования, обеспечивая эффективную работу без создания дополнительных неудобств для потребителя.<h5 class="cena">7 133₽</h5>
+                            </div>
+                            <div class="text text26"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                                Рассматриваемый канальный вентилятор Zilon ZFO 125 Z — это вершина надежности в обеспечении непрерывной подачи воздуха по круглым воздуховодам в помещениях различного назначения. Это оборудование не просто идеально подходит для промышленных задач — оно становится их незаменимым решением благодаря высочайшей производительности и надежности.<h5 class="cena">7 272₽</h5>
+                            </div>
+                            <div class="text text27"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                                Каждый аспект канального вентилятора Zilon (Зилон) ZFO 160 Z разработан с учетом требований самых требовательных клиентов. В комплект поставки этого вентилятора входят клеммная коробка и кронштейны, обеспечивая удобный и быстрый монтаж. Это значительно упрощает процесс установки, делая его доступным даже для непрофессионалов.<h5 class="cena">8 379₽</h5></div>
+                        </div>
+              </div>
+              </div> 
+          <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">X-COMFORT</div>
+                <div class="card-body">
+                        <input checked type="radio" name="name12" id="input28">
+                        <input type="radio" name="name12" id="input29">
+                        <input type="radio" name="name12" id="input30">
+                        <input type="radio" name="name12" id="input31">
+                        <label for="input28" id="label28" >RAK-18REF</label>
+                        <label for="input29" id="label29" >RAK-25REF</label>
+                        <label for="input30" id="label30" >RAK-35REF</label>
+                        <label for="input31" id="label31" >RAK-50REF</label>
+                        <div class="perecluch">
+                            <div class="text text28"><img src="./img/Hitachi.png" id="Hitachi">
+                               Внутренние блоки серии X-COMFORT выполнены в едином форм-факторе с 
+                               компактной шириной всего 78 см и обладают рекордно низким уровнем 
+                               звукового давления - на самой низкой скорости вентилятора (Super Low) 
+                               уровень шума составляет всего 19 дБ(А), что обеспечивает комфортный сон ночью. 
+                               Широкий модельный ряд включает модели холодопроизводительностью 2, 2,5, 3,5 и 5 кВт.
+                                Комфортное воздухораспределение достигается благодаря горизонтальному автосвингу - 
+                                автоматическому качанию горизонтальной створки жалюзи (вверх-вниз). Направление
+                                 воздушного потока по вертикали (влево-вправо) регулируется ручной установкой 
+                                 вертикальных створок жалюзи в требуемое положение. Работу кондиционера в
+                                  течение дня легко программировать благодаря функции 12-часовго таймера, 
+                                  активируемой с пульта. Функция сушки испарителя предотвращает появление 
+                                  плесени. Кондиционер оснащен функциями Eco и Powerful.<h5 class="cena">72 900₽</h5>
+                            </div>
+                            <div class="text text29"><img src="./img/Hitachi.png" id="Hitachi">
+                                Внутренние блоки серии X-COMFORT выполнены в едином форм-факторе с 
+                               компактной шириной всего 78 см и обладают рекордно низким уровнем 
+                               звукового давления - на самой низкой скорости вентилятора (Super Low) 
+                               уровень шума составляет всего 19 дБ(А), что обеспечивает комфортный сон ночью. 
+                               Широкий модельный ряд включает модели холодопроизводительностью 2, 2,5, 3,5 и 5 кВт.
+                                Комфортное воздухораспределение достигается благодаря горизонтальному автосвингу - 
+                                автоматическому качанию горизонтальной створки жалюзи (вверх-вниз). Направление
+                                 воздушного потока по вертикали (влево-вправо) регулируется ручной установкой 
+                                 вертикальных створок жалюзи в требуемое положение. Работу кондиционера в
+                                  течение дня легко программировать благодаря функции 12-часовго таймера, 
+                                  активируемой с пульта. Функция сушки испарителя предотвращает появление 
+                                  плесени. Кондиционер оснащен функциями Eco и Powerful.<h5 class="cena">76 900₽</h5>
+                            </div>
+                            <div class="text text30"><img src="./img/Hitachi.png" id="Hitachi">
+                                Внутренние блоки серии X-COMFORT выполнены в едином форм-факторе с 
+                               компактной шириной всего 78 см и обладают рекордно низким уровнем 
+                               звукового давления - на самой низкой скорости вентилятора (Super Low) 
+                               уровень шума составляет всего 19 дБ(А), что обеспечивает комфортный сон ночью. 
+                               Широкий модельный ряд включает модели холодопроизводительностью 2, 2,5, 3,5 и 5 кВт.
+                                Комфортное воздухораспределение достигается благодаря горизонтальному автосвингу - 
+                                автоматическому качанию горизонтальной створки жалюзи (вверх-вниз). Направление
+                                 воздушного потока по вертикали (влево-вправо) регулируется ручной установкой 
+                                 вертикальных створок жалюзи в требуемое положение. Работу кондиционера в
+                                  течение дня легко программировать благодаря функции 12-часовго таймера, 
+                                  активируемой с пульта. Функция сушки испарителя предотвращает появление 
+                                  плесени. Кондиционер оснащен функциями Eco и Powerful.<h5 class="cena">83 900₽</h5>
+                              </div>
+                            <div class="text text31"><img src="./img/Hitachi.png" id="Hitachi">
+                                Внутренние блоки серии X-COMFORT выполнены в едином форм-факторе с 
+                               компактной шириной всего 78 см и обладают рекордно низким уровнем 
+                               звукового давления - на самой низкой скорости вентилятора (Super Low) 
+                               уровень шума составляет всего 19 дБ(А), что обеспечивает комфортный сон ночью. 
+                               Широкий модельный ряд включает модели холодопроизводительностью 2, 2,5, 3,5 и 5 кВт.
+                                Комфортное воздухораспределение достигается благодаря горизонтальному автосвингу - 
+                                автоматическому качанию горизонтальной створки жалюзи (вверх-вниз). Направление
+                                 воздушного потока по вертикали (влево-вправо) регулируется ручной установкой 
+                                 вертикальных створок жалюзи в требуемое положение. Работу кондиционера в
+                                  течение дня легко программировать благодаря функции 12-часовго таймера, 
+                                  активируемой с пульта. Функция сушки испарителя предотвращает появление 
+                                  плесени. Кондиционер оснащен функциями Eco и Powerful.<h5 class="cena">123 900₽</h5>
+                            </div>
+                        </div>
+              </div>
+              </div>
+<div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">MULTI PREMIUM</div>
+                <div class="card-body">
+                        <input checked type="radio" name="name13" id="input33">
+                        <input type="radio" name="name13" id="input34">
+                        <label for="input33" id="label33" >RAM-33NP2E+RAK-15QPE+RAK-18RPE</label>
+                        <label for="input34" id="label34" >RAM-40NP2E+2xRAK-25RPE</label>
+                        <div class="perecluch">
+                            <div class="text text33"><img src="./img/h_mult.png" id="Hitachi">
+                               Мульти сплит-система серии Multizone Premium имеет высокую производительность 
+                               и работает на озонобезопасном хладагенте R32, выдавая сезонную энергоэффективность
+                                А+++/A++. Максимальное количество внутренних блоков – два, что в 90% случаев 
+                                отвечает большинству запросов. Применение мульти сплит-систем способствует
+                                 сохранению внешнего вида зданий снаружи, так как вместо нескольких наружных 
+                                 блоков ставится всего один. Компактные внешние блоки способны размещаться 
+                                 в ограниченном пространстве в виде технических помещений, балконах 
+                                 или специальных корзинах на фасаде дома.<h5 class="cena">176 400₽</h5>
+                            </div>
+                            <div class="text text34"><img src="./img/h_mult.png" id="Hitachi">
+                                Мульти сплит-система серии Multizone Premium имеет высокую производительность 
+                               и работает на озонобезопасном хладагенте R32, выдавая сезонную энергоэффективность
+                                А+++/A++. Максимальное количество внутренних блоков – два, что в 90% случаев 
+                                отвечает большинству запросов. Применение мульти сплит-систем способствует
+                                 сохранению внешнего вида зданий снаружи, так как вместо нескольких наружных 
+                                 блоков ставится всего один. Компактные внешние блоки способны размещаться 
+                                 в ограниченном пространстве в виде технических помещений, балконах 
+                                 или специальных корзинах на фасаде дома.<h5 class="cena">208 300₽</h5>
+                            </div>
+                            
+                        </div>
+              </div>
+              </div>
+            </div>
+            </div>
+              </div>
+        <div class="section-second" id="sec2">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <div class="zag2">Hisense</div>
+                        <div class="zag3">EASY Classic A</div>
+                          <div class="card-body">
+                            <div class="section section-flags">
+                              <div class="radio">
+                                  <input checked type="radio" name="name7" id="input17">
+                                  <input type="radio" name="name7" id="input18">
+                                  <input type="radio" name="name7" id="input19">
+                                  <label for="input17" id="label17" >AS-07HR4RYDDJ00G</label>
+                                  <label for="input18" id="label18" >AS-09HR4RYDDJ00G</label>
+                                  <label for="input19" id="label19" >AS-12HR4RYDDJ00G</label>
+                                  <div class="perecluch">
+                                      <div class="text text17"><img src="./img/hisens7.png">
+                                        Сплит-система HISENSE серии EASY CLASSIC предназначена для охлаждения, нагрева, осушения воздуха и вентиляции в бытовых помещениях. В работе кондиционеров серии EASY Classic A используется современный энергоэффективный и безопасный хладагент R32, который безвреден для окружающей среды. Интеллектуальная функция SMART благодаря специальному алгоритму свободной логики самостоятельно определит оптимальный режим работы кондиционера и настройки скорости вентилятора. А в режиме повышенной мощности TURBO сплит- системы EASY Classic A способны за считанные минуты охладить или согреть помещение.<h5 class="cena">25 690₽</h5>
+                                      </div>
+                                      <div class="text text18"><img src="./img/hisens7.png">
+                                        Настенная сплит-система Hisense (Хайсенс) EASY Classic A AS-09HR4RYDDJ00 благодаря HEPA-фильтру класса H11 предоставляет воздух полностью очищенным, а отдельный 7-ми скоростной DC-вентилятор для приточного воздуха позволяет точно регулировать скорость воздуха, поступающего с улицы. Кондиционер оснащен датчиком углекислого газа CO2, со световой индикацией качества воздуха, а также датчиком влажности воздуха.
+                                        AIR SENSATION SUPERIOR DC Inverter оборудован встроенным модулем Wi-Fi, позволяющим дистанционно управлять кондиционером с помощью смартфона.
+                                        Передовая технология самоочистки внутреннего и наружного блоков Ice Clean помогает сохранить первоначальную чистоту теплообменника и эффективность работы в течение длительного срока эксплуатации.
+                                        <h5 class="cena">27 890₽</h5>
+                                      </div>
+                                      <div class="text text19"><img src="./img/hisens7.png">
+                                        Hisense (Хайсенс) EASY Classic A AS-12HR4RYDDJ00 представляет собой модель сплит-системы, которая крепится на стену. Внутренний блок кондиционера оснащен дисплеем и выполнен в белом цвете. Устройство работает как на охлаждение, так и обогрев. Дополнительно во влажных помещениях можно включать режим осушения.
+                                        <h5 class="cena">36 690₽</h5></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <div class="zag2">Hisense</div>
+                        <div class="zag3">GOAL Classic A</div>
+                          <div class="card-body">
+                            <div class="section section-flags">
+                              <div class="radio">
+                                  <input checked type="radio" name="name8" id="input20">
+                                  <input type="radio" name="name8" id="input21">
+                                  <label for="input20" id="label20" >AS-07HR4RLRCA00G</label>
+                                  <label for="input21" id="label21" >AS-09HR4RLRCA01G</label>
+                                  <div class="perecluch">
+                                      <div class="text text20"><img src="./img/goal.png">
+                                        Hisense (Хайсенс) Goal Classic A AS-07HR4RLRCA00 представляет собой модель неинверторного кондиционера, состоящего из наружного и внутреннего блоков, а также пульта ДУ. Данная модель работает в 4-х режимах, что позволяет использовать ее в различных ситуациях и не только летом, но и зимой. Внутренний блок выполнен в лаконичном дизайне и оснащен дисплеем.<h5 class="cena">28 790₽</h5>
+                                      </div>
+                                      <div class="text text21"><img src="./img/goal.png">
+                                        Настенный кондиционер модели Hisense (Хайсенс) Goal Classic A AS-09HR4RLRCA01 отличается высокой производительностью, энергоэффективностью и тихой работой. Его можно использовать круглогодично, поскольку он не только охлаждает, но и обогревает воздух в помещении. Все управление осуществляется через пульт ДУ, оснащенный информативным дисплеем.
+                                        <h5 class="cena">22 190₽</h5>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <div class="zag2">Hisense</div>
+                        <div class="zag3">ERA Classic A</div>
+                          <div class="card-body">
+                            <div class="section section-flags">
+                              <div class="radio">
+                                  <input checked type="radio" name="name9" id="input22">
+                                  <input type="radio" name="name9" id="input23">
+                                  <label for="input22" id="label22" >AS-07HR4RLRKC00G</label>
+                                  <label for="input23" id="label23" >AS-12HR4RLRKC01G</label>
+                                  <div class="perecluch">
+                                      <div class="text text22"><img src="./img/era.png">
+                                        Hisense (Хайсенс) Era Classic A  AS-07HR4RLRKC00 – это модель классического кондиционера, который крепится на стене. Его внутренний блок выполнен в лаконичном дизайне белого цвета и оснащен дисплеем. Данная сплит-система позволяет не только охлаждать или обогревать помещения, но и осушать воздух. Также есть режим вентиляции.<h5 class="cena">29 990₽</h5>
+                                      </div>
+                                      <div class="text text23"><img src="./img/era.png">
+                                        Настенный кондиционер Hisense (Хайсенс) Era Classic A  AS-12HR4RLRKC01 – это классическая модель, которая имеет как стандартный функционал (охлаждение, обогрев помещения), так и имеет дополнительные режимы, функции. Это позволяет создавать идеальный микроклимат в помещении, при этом не прилагать для этого много усилий.
+                                        <h5 class="cena">42 590₽</h5>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card mb-3" style="width: 18rem;">
+                        <div class="zag2">Hisense</div>
+                        <div class="zag3">EXPERT PRO DC Inverter</div>
+                          <div class="card-body">
+                            <div class="section section-flags">
+                              <div class="radio">
+                                  <input checked type="radio" name="name10" id="input24">
+                                  <label for="input24" id="label24" >AS-10UW4RYDTV02G</label>
+                                  <div class="perecluch">
+                                      <div class="text text24"><img src="./img/expert.png">
+                                        Настенный инверторный кондиционер Hisense (Хайсенс) EXPERT PRO R32 AS-10UW4RYDTV02 обладает трехступенчатой системой очистки воздуха с обязательной стадией ионизации. Наружный блок имеет двойную шумоизоляцию компрессора, так что даже на самой высокой мощности он не будет создавать неприятный гул за окном.<h5 class="cena">45 490₽</h5>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card" id="dop">
+                
+                <div class="card-body">
+                  <p class="card-title">Не нашли нужое оборудование?</p>
+                  <a href="#sec3"><button><p>Больше техники</p></button></a>
+                </div>
+              </div>
+
+        </div>
+        <div class="section-third" id="sec3">
+            <div class="zag">СКАЧАЙТЕ ВЕСЬ КАТАЛОГ</div>
+            <div class="download">
+                <div class="container-usl">
+                    <div class="zag3">ВСЕ УСЛУГИ</div>
+                    <p>Скачайте наш полный каталог услуг и их стоимость!</p>
+                    <a href="./docs/Прайс лист  на работы холоднино.xlsx" download><button class="download"><p>Скачать</p></button></a>
+                </div>
+                <div class="container-obor">
+                    <div class="zag3">ВСЯ ТЕХНИКА</div>
+                    <p>Скачайте наш полный каталог кондиционеров и их стоимость!</p>
+                    <a href="./docs/Kopia_BREEZ_BLACK_FRIDAY_BREEZ_2024_21_11_2024-28_11_2024_REGIONY.xlsx" download><button class="download"><p>Скачать</p></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="section-footer" style="width: 100%;">
+            <div class="container-footer">
+              <div class="information">
+                <div class="left">т.: 89308070709<br>
+                  ООО«Мигвана» 
+                  |   КПП 525601001
+                  |   ИНН 5256124766<br>
+                  ОГРН 1135256007886<br>
+                  БИК 048073770 <br>
+                  Рас. счет
+                  40702810710000962735<br>
+                  603016, г. Нижний Новгород
+                  ул. Лескова д. 10, кв. 2<br>
+                  АО «ТБанк»<br>
+                  Кор. счет банка
+                  30101810145250000974<br>
+                  127287, г. Москва, ул. Хуторская 2-я, д. 38А, стр. 26
+                  </div>
+                <div class="mid"><div class="hrefs">
+                  <a href="#sec1">сплиты</a>
+                  <a href="#sec2">линейка</a>
+                </div></div>
+                <div class="right">HolodNiNo - установка, обслуживание, ремонт и продажа бытовой,
+                  промышленной и полупромышленной климатической техники.</div>
+                
+              </div>
+              <div class="director">
+                <p>Holodnino
+                  © 2024</p>
+              </div>
+            </div>
+                    </div>
+<script src="./vue.global.js"></script>
+<script src="./str3.js"></script>
+<script src="./enterkab.js"></script>
+<script></script>
+
+</body>
+</html>

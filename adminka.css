@@ -1,0 +1,219 @@
+@import url('./fontstyle.css');
+body {
+      margin: 0;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+.hrefs{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.hrefs p{
+     color: white;
+     margin: 0;
+    font-family: 'Yan';
+    font-weight: 500;
+    font-size: 28px;
+}
+.hrefs a{
+text-decoration: none;
+
+}
+nav img{
+    height: 40px;
+    padding-left: 10px;
+}
+nav{
+    width: 80px;
+}
+#num{
+    font-size: 35px;
+    padding-right: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar .container-fluid{
+    display: flex;
+    align-items: center;
+    height: 80px !important;
+    width: 1920px;
+    flex-direction: row;
+    justify-content: space-between;
+        background-color: #022B4B;
+
+}
+    .sidebar {
+      width: 220px;
+      background-color: #022B4B;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    .sidebar button {
+    font-family: 'Yan';
+      background: none;
+      border: none;
+      margin: 5px 0;
+      color: white;
+      padding: 12px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: left;
+      transition: background-color 0.3s;
+      height: 70px;
+      font-size: 24px;
+    }
+    .sidebar button:hover, .sidebar button.active {
+      background-color: #ffffff;
+      color: #022B4B;
+    }
+    
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+
+    }
+    .content > div {
+      display: none;
+    }
+    .content > div.active {
+      display: block;
+    }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            font-family: 'Zen';
+        }
+        td {
+           font-size: 20px; 
+           height: 50px;
+           border-bottom: 3px solid  #022B4B;
+           border-top: 3px solid  #022B4B;
+           border-left: 3px solid  #022B4B;
+        }
+        #none{
+            border-left: 3px solid  #022B4B;
+            border-bottom: none;
+            border-top: none;
+        }
+
+        th {
+            background-color: #ffffff;
+            font-weight: 300;
+            font-size: 24px;
+            border: 3px solid  #022B4B;
+            height: 50px;
+
+        }
+
+        .delete-icon {
+            color: red;
+            cursor: pointer;
+        }
+        .delete-icon:hover {
+            color: darkred;
+        }
+        .section-first{
+            display: flex;
+            flex-direction: row;
+            width: 1920px;
+        }
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    height: 40px;
+    width: 50%;
+        font-size: 20px;
+}
+.form label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Zen';
+font-size: 20px;
+font-weight: 300;
+}
+#model{
+    width: 20%;
+}
+#description{
+    height: 200px;
+    width: 50%;
+    font-size: 20px;
+}
+
+  input[type="file"] {
+    display: none;
+  }
+  label.upload-btn {
+    display: inline-block;
+    background:#022B4B;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        font-family: 'Zen';
+        font-weight: 200;
+  }
+  #submitBtn{
+display: inline-block;
+    background:#022B4B;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        font-family: 'Zen';
+        font-weight: 200;
+  }
+  #submitBtn:hover{
+     background: #ffffff;
+    color: #022B4B;
+    border: #022B4B 1px solid;
+  }
+  .file-name {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+    min-height: 20px;
+  }

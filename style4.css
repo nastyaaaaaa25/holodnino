@@ -1,0 +1,439 @@
+@import url('./fontstyle.css');
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.modal{
+    --bs-modal-border-radius: none !important;
+    --bs-modal-width: 700px !important;
+    --bs-modal-height: 500px !important;
+}
+.btn-primary{
+    --bs-btn-bg: none  !important;
+    --bs-btn-border-color: none !important;
+    --bs-btn-active-bg: none !important;
+    --bs-btn-active-border-color: none !important;
+    --bs-btn-hover-bg:none !important;
+    --bs-btn-hover-border-color:none !important;
+
+}
+.modal-content{
+    border: #022B4B 5px solid !important;
+
+}
+.modal-footer{
+    align-items: center;
+    justify-content: center !important;
+
+}
+.modal-footer button{
+    background-color: #022B4B;
+    --bs-btn-border-radius: none;
+    border: #022B4B 2px solid;
+    font-family: 'Zen';
+
+}
+.modal-footer button:hover{
+    color: #022B4B;
+
+}
+.enter label{
+font-size: 20px;
+text-transform: none;
+ margin-left: 15%;
+ margin-top: 20px;
+}
+.enter h1{
+    font-size: 35px;
+    align-self: center;
+    color: #022B4B;
+}
+.enter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.enter input{
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.hrefs{
+
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.hrefs p{
+     color: white;
+     margin: 0;
+    font-family: 'Yan';
+    font-weight: 500;
+    font-size: 28px;
+}
+.hrefs a{
+text-decoration: none;
+
+}
+nav img{
+    height: 40px;
+}
+nav{
+    width: 80px;
+}
+#num{
+    font-size: 35px;
+}
+.navbar{
+    width: 1920px;
+    height: 80px;
+
+}
+.navbar .container-fluid{
+    background-color: #022B4B;
+    height: 80px !important;
+}
+.section-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.container-uslugi a button{
+    margin-top: 50px;
+    width: 270px;
+    height: 70px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#ffffff;
+    border: #022B4B 2px solid;
+    color:#022B4B;
+
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+.container-uslugi a button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.container-uslugi a button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#022B4B;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.container-uslugi a button p{
+    margin: 0;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.container-uslugi a button:hover p{
+    color: #022B4B; 
+}
+
+.container-uslugi{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zag{
+    margin-top: 50px;
+    color:#022B4B;
+        font-size: 60px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 120%;
+}
+#accordionFlushExample{
+    width: 100%;
+    --bs-accordion-bg:#ffffff;
+    z-index: 1;
+}
+button.accordion-button.collapsed{
+    color:  #022B4B;
+    padding-top: 40px;
+    font-size: 45px;
+    font-family: 'Yan';
+    font-weight: 400;
+    border-bottom: #022B4B solid 3px ;
+
+}
+.accordion-button:focus{
+    color:#022B4B;
+    padding-top: 40px;
+    font-size: 45px;
+    font-family: 'Yan';
+    font-weight: 400;
+}
+.accordion-button:not(.collapsed){
+background-color: #ffffff !important;
+    padding-top: 40px;
+    font-size: 45px;
+    font-family: 'Yan';
+    font-weight: 400;
+    box-shadow: none !important;
+}
+div.accordion-body{
+    color: #022B4B;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.accordion-body #ust{
+width: 900px;
+font-family: 'Zen';
+font-size: 20px;
+font-weight: 300;
+}
+.steps{
+margin-left: 300px;
+font-family: 'Zen';
+font-size: 20px;
+font-weight: 300;
+}
+div.f-step{
+    width: 700px;
+    border:#022B4B 10px dashed !important;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.accordion-body p{
+    width: 900px;
+}
+div.sec_step{
+    width: 700px;
+    border:#022B4B 10px dashed !important;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+div.f-step p{
+    margin: 0;
+}
+b{
+    font-size: 25px;
+}
+.section-second{
+    width: 100%;
+    display: flex;
+    background-color: #022B4B;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    
+}
+.section-second .applications{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.section-second label{
+        color: #ffffff;
+        text-transform: none;
+        font-size: 20px;
+        margin: 30px 0 0 0 ;
+        font-weight: 200px;
+}
+
+.container-rabota{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-rabota .zag{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.container-rabota input{
+    height: 57px;
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+    color: #022B4B;
+    font-size: 25px;
+    
+}
+.container-rabota label{
+        margin-left: 20%;
+}
+.container-rabota #uslugi{
+    margin-left: 20% ;
+     height: 57px;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 20%;
+    color: #022B4B;
+    font-size: 25px;
+}
+.container-rabota input#sogl{
+    width: 30px;
+    height: 30px;
+}
+.container-rabota label#sogl_lab{
+    margin: 0;
+    margin-left: 30px;
+}
+.container-rabota .chek{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.container-rabota button{
+    width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #ffffff 2px solid;
+    color:#022B4B;
+    margin: 60px 0 0 0;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+.container-rabota button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.container-rabota button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.container-rabota button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+}
+.container-rabota button:hover p{
+    color: #ffffff; 
+}
+.section-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #022B4B;
+    padding: 100px 0 0 0;
+}
+.container-footer{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    border-bottom:#ffffffc3 2px solid;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Zen';
+    line-height: 200%;
+    font-weight: 200;
+}
+.section-footer p{
+    color: #ffffff;
+}
+.information .left{
+width: 32%;
+margin-left: 20px;
+}
+.information .mid{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .information .mid .hrefs{
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .information .mid a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Zen';
+        line-height: 200%;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .information .right{
+        width:20%;
+        }
+        .director{
+            padding: 20px 0;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Zen';
+            line-height: 200%;
+            font-weight: 200;
+        }
+        
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}

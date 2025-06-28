@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Боковая панель с переключением содержимого</title>
+  <link rel="stylesheet" href="./adminka.css">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Боковая панель с переключением содержимого</title>
+  <link rel="stylesheet" href="./adminka.css">
+</head>
+<body>
+   <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./img/logo.svg" alt="Logo" height="24" class="d-inline-block align-text-top">
+          <div class="hrefs" type="zag"><a href="./index.html"><p>главная</p></a><p id="num">+7 930 800 09 63</p></a></div>
+        </div>
+      </nav>
+<div class="section section-first">
+  <div class="sidebar">
+    <button data-target="home" class="active">ЗАКАЗЫ</button>
+    <button data-target="about">УСЛУГИ</button>
+    <button data-target="services">+ КАРТОЧКА ТОВАРА</button>
+    <button data-target="contact">КОРЗИНА</button>
+  </div>
+  <div class="content">
+    <div id="home" class="active">         
+            <div class="table-container">
+                <table id="applications-table">
+                    <thead id="thead">
+                        <tr>
+                            <th>ДАТА</th>
+                            <th>ИМЯ КЛИЕНТА</th>
+                            <th>ТЕЛЕФОН</th>
+                            <th>КОНДИЦИОНЕР</th>
+                            <th>АДРЕС</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+    </div>
+    <div id="about">
+      <div class="table-container">
+                <table id="applications-table1">
+                    <thead id="thead">
+                        <tr>
+                            <th>ДАТА</th>
+                            <th>ИМЯ КЛИЕНТА</th>
+                            <th>ТЕЛЕФОН</th>
+                            <th>УСЛУГА</th>
+                            <th>АДРЕС</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    <div id="services">
+      <div class="form">
+            <label for="name">Напишите название кондиционера</label>
+            <input type="text" id="name">
+            <label for="model">Напишите модель кондиционера</label>
+            <input type="text" id="model">
+            <label for="description">Добавьте описание</label>
+    <textarea
+      name="comment"
+      cols="40"
+      rows="3"
+id="description">
+    </textarea>
+
+            <label for="price">Введите цену</label>
+            <input type="text" id="price">
+             <form enctype="multipart/form-data" method="post">
+   <p>Выберите фото</p>
+   <div class="upload-form">
+    <input type="file" name="photo" multiple accept="image/*,image/png" id="fileInput">
+  <label for="fileInput" class="upload-btn">Выбрать файл</label>
+  <div class="file-name" id="fileName">Файл не выбран</div>
+   </div>
+  </form>
+
+      </div>
+      <button  id="submitBtn" style="margin-top:15px; padding: 8px 12px;">Создать карточку</button>
+    </div>
+    <div id="contact">
+      <div class="table-container">
+                <table id="delete">
+                    <thead id="thead">
+                        <tr>
+                            <th>ДАТА</th>
+                            <th>ИМЯ КЛИЕНТА</th>
+                            <th>ТЕЛЕФОН</th>
+                            <th>УСЛУГА</th>
+                            <th>АДРЕС</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+    </div>
+  </div>
+  </div>
+<script src="./adminka.js"></script>
+
+<script>
+  // Создание карточки и переход на страницу просмотра
+  document.getElementById('submitBtn').addEventListener('click', () => {
+    const name = document.getElementById('name').value.trim();
+    const model = document.getElementById('model').value.trim();
+    const description = document.getElementById('description').value.trim();
+    const price = document.getElementById('price').value.trim();
+
+    if (!name || !model || !price) {
+      alert('Пожалуйста, заполните обязательные поля: название, модель, цену');
+      return;
+    }
+
+    const files = fileInput.files;
+    if (files.length === 0) {
+      alert('Пожалуйста, выберите хотя бы одно фото');
+      return;
+    }
+
+    // Читаем первое фото как data URL
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      const imageSrc = e.target.result;
+
+      // Собираем объект карточки
+      const card = { name, model, description, price, imageSrc };
+
+      // Получаем ранее сохранённые карточки
+      let cards = JSON.parse(localStorage.getItem('conditionerCards') || '[]');
+      cards.push(card);
+      localStorage.setItem('conditionerCards', JSON.stringify(cards));
+
+      // Переходим на страницу с карточками
+      window.location.href = './str3.html';
+    };
+
+    reader.readAsDataURL(files[0]);
+  });
+</script>
+
+  <script>
+  </script>
+</body>
+</html>

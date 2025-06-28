@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style4.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="wrapper">
+        <div class="content">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./img/logo.svg" alt="Logo" height="24" class="d-inline-block align-text-top">
+          <div class="hrefs" type="zag"><a href="./str2.html"><p>контракты</p></a><a href="./index.html"><p>главная</p></a><a href="./str3.html"><p>Кондиционеры</p></a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="loginBtn">
+  <img src="./img/user-circle_svgrepo.com.svg">
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content mycontent"  id="loginForm">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+<div class="enter">
+          <h1 id="exampleModalLabel">ВХОД</h1>
+            <label for="username">Введите логин</label>
+            <input type="text" id="username">
+            <label for="password">Введите пароль</label>
+            <input type="text" id="password">
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" style="width: 100px;" class="btn btn-primary">Войти</button>
+      </div>
+    </form>
+  </div>
+</div>
+          </div>
+        </div>
+      </nav>
+      <div class="section section-first" id="sec1">
+       <div class="zag">Оказываемые услуги</div>
+    <div class="container-uslugi">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Монтаж кондиционера в 2 этапа
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p id="ust">
+                Установка кондиционера в два этапа подразумевает, что монтаж будет разделён на 2
+                части: В первый этап мы закладываем межблочную трассу кондиционера и
+                электрические соединения в стену и только после завершения ремонта в квартире
+                (подготовки стен), приступаем ко второму этапу монтажа и производим подключение
+                кондиционера, вакуумацию системы и запуск оборудования.<br>
+                <br>
+                Вы так же можете вызвать мастера на консультацию.  На месте он более точно и подробно
+                расскажет Вам о процессе установки кондиционера, рассчитает точную стоимость работ
+                по монтажу и начертит штробу для вашего кондиционера.</p>
+                <div class="steps">
+                <div class="f-step">
+                  <p>Стоимость первого этапа установки стоит от <b>9 000</b> руб. в эту стоимость входит 4м
+                    межблочной трассы для кондиционеров 7ки и 9ки до 3,2 кВт , укладка в штробу
+                    (Штробление в зависимости от материала стены оплачивается отдельно)
+                    </p>
+                </div>
+                <div class="sec_step">
+                  Стоимость второго этапа установки <b>6000</b> руб.
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Демонтаж кондиционера
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><p>Для вас мы проведем:<br>
+                -Перегон хладагента во внешний блок<br>
+                -Демонтаж наружной части<br>
+                -Снятие со стены внутренней части</p>
+                <div class="f-step" id="dem">
+                  <p>Демонтаж 5 тыс руб 
+                    Демонтаж трассы 750р
+                  </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Чистка кондиционера
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><p>Для вас мы проведем:<br>
+                -Дезинфекцию и чистку радиатора, лотка, сливной трубки,
+                дренажной помпы.<br>
+                -Мойку фильтров и замену при необходимости (можете
+                приобрести у нас дополнительно плазменный и кахетиновые
+                фильтра, которые улучшают качество очистки воздуха и уменьшают
+                вредные примиси в воздухе)<br>
+                -Чистку наружного блока мойкой высокого давления от пуха, пыли,
+                грязи и прочих загрязнений.<br>
+                -Прочистку внутренних поверхностей лопастей вентилятора и при
+                необходимости полный разбор внутреннего блока.<br>
+                -Обработка парогенератором испарителя внутреннего блока сплит
+                ситсемы</p>
+                <div class="f-step" id="chist">
+                  Стоимость чистки зависит от мощности кондиционера, степени
+загрязнения, скидка при обслуживании кондиционеров более
+одной единицы.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Заправка кондиционера
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><p id="textp">Если Ваш кондиционер начал дуть теплым воздухом, значит в
+                каком то месте есть утечка и фреон испарился, пришло время его
+                заправить. Мы сможем найти утечку и устранить ее, для
+                исключения дальнейших трат ваших денег.
+                Существует нормированная утечка хладагента, и раз в 5 лет
+                наступает необходимость дозаправить кондиционер. У нас самые
+                дешевые цены по дозаправке бытовых кондиционеров от 1000р
+                При установке нового кондиционера заправка не требуется, так как
+                необходимый уровень фриона уже закачан в наружный блок
+                кондиционера, необходима заправка при не стандартном монтаже
+                когда трасса больше 5 м.
+                Может потребоваться дозаправка при установке б/у, старого
+                кондиционера при не правильном демонтаже.</p>
+              <div class="f-step" id="zap">Рекомендуем совместно с чисткой провести комплексное
+                обслуживание кондиционера. При комплексном обслуживании
+                специалист проверит все рабочии параметры кондиционера и
+                выявит отклонения от нормы и предотвратит траты на ремонт.
+                Рекомендуется раз в год проводить техническое обслуживание.</div> 
+            </div>
+            </div>
+          </div>
+        </div>
+        <a href="./docs/Прайс лист  на работы холоднино.xlsx" download><button class="download"><p>Скачать прайс лист услуг</p></button></a>
+      </div>
+      </div>
+      <div class="section section-second" id="sec2">
+        <div class="container-rabota">
+            <div class="zag">оставьте заявку на вызов мастера</div>
+            <div class="applications">
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio">
+            <label for="tel">Телефон</label>
+            <input type="text" id="tel">
+            <label for="adr">Адрес</label>
+            <input type="text" id="adr">
+            <label for="uslugi">Выберите услугу</label>
+            <select id="uslugi">
+                 <option value="">Выберите услугу</option>
+                <option  value="usl1">Монтаж кондиционера в 2 этапа</option>
+                <option  value="usl2">Демонтаж кондиционера</option>
+                <option  value="usl3">Чистка кондиционера</option>
+                <option  value="usl4">Заправка кондиционера</option>
+            </select>
+            <div class="chek"><input type="checkbox" id="sogl"><label for="sogl" id="sogl_lab">Даю согласие на обработку персональных данных</label></div>
+          </div>
+          <button id="otp"><p>Отправить заявку</p></button>
+        </div>
+      </div>
+              <div class="section-footer" style="width: 100%;">
+            <div class="container-footer">
+              <div class="information">
+                <div class="left">т.: 89308070709<br>
+                  ООО«Мигвана» 
+                  |   КПП 525601001
+                  |   ИНН 5256124766<br>
+                  ОГРН 1135256007886<br>
+                  БИК 048073770 <br>
+                  Рас. счет
+                  40702810710000962735<br>
+                  603016, г. Нижний Новгород
+                  ул. Лескова д. 10, кв. 2<br>
+                  АО «ТБанк»<br>
+                  Кор. счет банка
+                  30101810145250000974<br>
+                  127287, г. Москва, ул. Хуторская 2-я, д. 38А, стр. 26
+                  </div>
+                <div class="mid"><div class="hrefs">
+                  <a href="#sec1">Услуги</a>
+                  <a href="#sec2">Оставить заявку</a>
+                </div></div>
+                <div class="right">HolodNiNo - установка, обслуживание, ремонт и продажа бытовой,
+                  промышленной и полупромышленной климатической техники.</div>
+                
+              </div>
+              <div class="director">
+                <p>Holodnino
+                  © 2024</p>
+              </div>
+            </div>
+                    </div>
+
+  <script>
+    document.getElementById('otp').addEventListener('click', () => {
+      const fio = document.getElementById('fio').value.trim();
+      const tel = document.getElementById('tel').value.trim();
+      const adr = document.getElementById('adr').value.trim();
+      const typeSelect = document.getElementById('uslugi');
+      const type = typeSelect.options[typeSelect.selectedIndex].text;
+      const sogl = document.getElementById('sogl').checked;
+
+      if (!fio || !tel || !adr || !typeSelect.value || !sogl) {
+        alert('Пожалуйста, заполните все поля и дайте согласие');
+        return;
+      }
+
+      const date = new Date().toLocaleString();
+
+      const application1 = { date, fio, tel, uslugi: type, adr };
+
+      let applications1 = JSON.parse(localStorage.getItem('applications1')) || [];
+
+      applications1.push(application1);
+
+      localStorage.setItem('applications1', JSON.stringify(applications1));
+
+      alert('Заявка отправлена!');
+
+      document.getElementById('fio').value = '';
+      document.getElementById('tel').value = '';
+      document.getElementById('adr').value = '';
+      typeSelect.value = '';
+      document.getElementById('sogl').checked = false;
+    });
+  </script>
+  <script src="./enterkab.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,549 @@
+@import url('./fontstyle.css');
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.modal{
+    --bs-modal-border-radius: none !important;
+    --bs-modal-width: 700px !important;
+    --bs-modal-height: 500px !important;
+}
+.btn-primary{
+    --bs-btn-bg: none  !important;
+    --bs-btn-border-color: none !important;
+    --bs-btn-active-bg: none !important;
+    --bs-btn-active-border-color: none !important;
+    --bs-btn-hover-bg:none !important;
+    --bs-btn-hover-border-color:none !important;
+
+}
+.modal-content{
+    border: #022B4B 5px solid !important;
+
+}
+.modal-footer{
+    align-items: center;
+    justify-content: center !important;
+
+}
+.modal-footer button{
+    background-color: #022B4B;
+    --bs-btn-border-radius: none;
+    border: #022B4B 2px solid;
+    font-family: 'Zen';
+
+}
+.modal-footer button:hover{
+    color: #022B4B;
+
+}
+.enter label{
+font-size: 20px;
+text-transform: none;
+ margin-left: 15%;
+ margin-top: 20px;
+}
+.enter h1{
+    font-size: 35px;
+    align-self: center;
+    color: #022B4B;
+}
+.enter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.enter input{
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.hrefs{
+
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.hrefs p{
+     color: white;
+     margin: 0;
+    font-family: 'Yan';
+    font-weight: 500;
+    font-size: 28px;
+}
+.hrefs a{
+text-decoration: none;
+
+}
+nav img{
+    height: 40px;
+}
+nav{
+    width: 80px;
+}
+#num{
+    font-size: 35px;
+}
+.navbar{
+    width: 1920px;
+    height: 80px;
+
+}
+.navbar .container-fluid{
+    background-color: #022B4B;
+    height: 80px !important;
+}
+.section-first{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 50px 0;
+    height: 40%;
+    justify-content: center;
+}
+ .information p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Zen';
+    color: #022B4B;
+    padding-left:200px ;
+}
+.section-second p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Zen';
+    color: #022B4B;
+    padding-left:200px ;
+}
+.zag{
+    color: #022B4B;
+    font-size: 60px;
+    font-family: 'Yan';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.zag2{
+    font-family: 'Yan';
+    font-size: 45px;
+    color: #022B4B;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    width: 1647px;
+    padding: 0px  0 30px 200px;
+}
+.section-first button{
+    margin-left: 200px;
+    margin-top: 20px;
+     width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #022B4B 2px solid;
+    color:#ffffff;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+
+}
+.section-first button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.section-first button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.section-first button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+    padding: 0;
+}
+.section-first button:hover p{
+    color: #ffffff; 
+}
+.section-second{
+    width: 1920px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+.section-second .information{
+    line-height: 40px;
+}
+.section-second button{
+    width: 250px;
+    height: 60px;
+    font-family: 'Zen';
+    font-size: 20px;
+    font-weight: 300;
+    background-color:#022B4B;
+    border: #022B4B 2px solid;
+    color:#ffffff;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+
+}
+.section-second button:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);
+    
+}
+.section-second button::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.section-second button p{
+    margin: 0;
+    color: #022B4B;
+    transition: 0.3s;
+    padding: 0;
+}
+.section-second button:hover p{
+    color: #ffffff; 
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+	flex: 1 0  auto;
+}
+.section-footer {
+	flex: 0 0 auto;
+    background-color: #022B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer .information{
+    border-bottom:#ffffffc3 2px solid;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Zen';
+    line-height: 200%;
+    font-weight: 200;
+}
+.section-footer p{
+    color: #ffffff;
+}
+.section-footer .left{
+width: 32%;
+margin-left: 20px ;
+}
+.section-footer .information .mid{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .section-footer .information .mid .hrefs{
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-footer .information .mid a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Zen';
+        line-height: 200%;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .section-footer .information .right{
+        width:32%;
+        margin-right: 20px;
+        }
+        .director{
+            padding: 20px 0;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Zen';
+            line-height: 200%;
+            font-weight: 200;
+        }
+        .obl1 {
+            width: 1920px;
+            height: 500px;
+            transform: translateY(250px);
+            overflow: hidden;
+        }
+        #obl1{
+transform: translateX(1300px);
+transition: 3.5s;
+        }
+        #obl1:hover{
+            transform: translateX(1500px);
+                    }
+        .obl2 {
+            width: 1920px;
+            height: 500px;
+            transform: translateY(-170px);
+            overflow: hidden;
+        }
+        #obl2{
+transform: translateX(-200px);
+transition: 3.5s;
+height: 400PX;
+        }
+        #obl2:hover{
+            transform: translateX(-400px);
+                    }       
+                    @media (max-width: 1920px) {
+                    .navbar {
+                        width: 100%;
+                        overflow: hidden;
+                    }   
+                    .wrapper{
+                        width: 100%;
+                    }
+                    .section-first {
+                        width: 100%;
+                        height: 30%;
+                }
+                    .obl1 {
+                        width: 100%;
+                        }
+                    .section-second {
+                         width: 100%;
+                         margin: 50px 0;}
+                    .obl2 {
+                        width: 100%;
+                    }
+                    .container-footer {
+                        width: 100%;}
+                    .section-footer .information {
+                        width: 100%;}
+                        .section-second p#kontr {
+                            width: 100%;
+                            padding-left: 10%;
+                            padding-right: 10%;
+                        }
+                    
+                        .zag2{
+                            width: 100%;
+                            padding: 0px 0 30px 10%;
+                        }
+                    .section-first .information{
+                        width: 100%;
+                    }
+                    .section-first p{
+                        padding-left: 10%;
+                    }
+                    .section-second .information{
+                        padding: 1% 0;
+                    }
+                    #obl1 {
+                        transform: translateX(1000px);
+                        transition: 3.5s;
+                    }
+                    
+                }       
+                @media (max-width: 1400px){
+                    .hrefs{
+                        width: 50%;
+                    }
+                    #obl2,
+                    #obl1{
+                        height: 300PX;
+                        transform: translate(0);
+                    }
+                    .obl2 {
+                        height: 300px;
+                        transform: translateY(-10px);}
+                        .obl1 {
+                            height: 300px;
+                            display: flex;
+                            justify-content: flex-end;
+                            transform: translateY(400px);
+                        }
+                        #obl1 {
+                            transform: translateX(300px);
+                            transition: 3.5s;
+                        }
+                        #obl1:hover{
+                            transform: translateX(500px);
+                        }
+                }   
+                @media (max-width: 1000px){
+                    .obl1 ,
+                    .obl2 {
+                        display: none;
+                    }
+                    .hrefs p{
+                        font-size: 20px;
+                    }
+                    .zag {
+                        font-size: 48px;
+                    }
+                    .zag2 {
+                        font-size: 29px;}
+                    .section-first p {
+                        font-size: 15px;}
+                    .section-second p {
+                        font-size: 15px;  
+                            }  
+                    .section-first{
+                        height: auto;
+                        padding: 0;
+                        margin: 20% 0;
+                    }
+                    .section-second{
+                        height: auto;
+                        margin: 20% 0;
+                    }
+                    .section-footer .left {
+                        font-size: 15px;
+                        line-height: 150%;
+                    }
+                    .section-footer .information .mid a {
+                        font-size: 15px;}
+                    .section-footer .information .right {
+                        font-size: 15px;
+                        line-height: 150%;}
+                    .section-footer p {
+                        margin: 0;
+                        font-size: 15px;
+                        }
+                }
+                @media (max-width: 780px){
+                    .hrefs {
+                        width: 60%;
+                    }
+                    .hrefs p{
+                        font-size: 15px;
+                    }
+                    #num {
+                        font-size: 20px;
+                    }
+
+                }
+                @media (max-width: 520px){
+                    .hrefs{
+                        width: 100%;
+                    }
+                    .d-inline-block {
+                        display: inline-block !important;
+                        transform: translateX(130px);
+                        height: 30px;
+                    }
+                    .zag {
+                        font-size: 30px;
+                    }
+                    .zag2 {
+                        font-size: 20px;
+                    }
+                    .section-first p {
+                        font-size: 10px;
+                    }
+                    .section-first {
+                        margin: 10% 0;
+                    }
+                    .section-second{
+                        padding: 0;
+                        height: auto;
+                        margin: 10% 0;
+                        }
+                        .section-second p#kontr {
+                            width: 100%;
+                            padding-left: 10%;
+                            padding-right: 10%;
+                            line-height: 150%;
+                            font-size: 10px;
+                        }
+                        .zag2 {
+                            padding: 0px 0 10px 10%;
+                        }
+                        .section-second button {
+                            width: 100px;
+                            height: 40px;}
+                            .section-second p {
+                                font-size: 8px;
+                            }
+                            .section-footer .left {
+                                font-size: 8px;}
+                        .section-footer .information .mid a{
+                            font-size: 8px;}
+                            .section-footer .information .right {
+                                font-size: 8px;}
+                            .section-footer p {
+                                margin: 0;
+                                font-size: 8px;
+                                
+                                }
+                                .section-footer .director{
+                                    padding: 0;
+                                }
+                                
+                }

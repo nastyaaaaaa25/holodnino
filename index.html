@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="container-gl">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="./img/logo.svg" alt="Logo" height="24" class="d-inline-block align-text-top">
+          <div class="hrefs" type="zag"><a href="#sec7"><p>контакты</p></a><a href="#sec4"><p>услуги</p></a><a href="#sec3"><p>каталог</p></a><a href="#sec6"><p>о нас</p></a><!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="loginBtn">
+  <img src="./img/user-circle_svgrepo.com.svg">
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content mycontent"  id="loginForm">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+<div class="enter">
+          <h1 id="exampleModalLabel">ВХОД</h1>
+            <label for="username">Введите логин</label>
+            <input type="text" id="username">
+            <label for="password">Введите пароль</label>
+            <input type="text" id="password">
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" style="width: 100px;" class="btn btn-primary">Войти</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="teleph"><p id="num">+7 930 807 07 09</p><p id="num">+7 904 055-63-33</p></div></a></div>
+        </div>
+      </nav>
+      <div class="section-first" id="sec1">
+        <div class="container-inside">
+        <div class="zag">
+          продажа, установка и обслуживание бытовой и
+          промышленной климатической техники
+        </div>
+        <p>В своей работе наша команда использует только качественный материал и
+          инструмент, что в сочетании с отличными навыками специалистов приводит к высокой надежности
+          выполняемых услуг.</p>
+        <a href="./str2.html"><button><p>Больше информации</p></button></a>
+      </div>
+    </div><div class="o" style="position: absolute;" >
+        <img src="./img/abstract-smoke-cloud-texture-3sa1hg27vzfdxatm 3.svg" id="obl1" style="position:relative;">
+        </div>
+      </div>
+    <div class="section-second" id="sec2">
+      <div class="obl" style="position: absolute;" >
+  <img src="./img/abstract-smoke-cloud-texture-3sa1hg27vzfdxatm 3.svg" id="obl2" style="position: relative;">
+  </div>
+<div class="container-differents">
+<div class="zag">чем мы отличаемся от конкурентов?</div>
+<div class="podzag">Наша команда имеет богатый
+  опыт работы с различными по сложности климатическими системами, все специалисты проходят
+  обучение по установке и обслуживанию холодильного оборудования. Нашими услугами
+  пользуются частные и юридические лица, бюджетные и коммерческие организации, сетевые и
+  розничные поставщики товаров и услуг. Все специалисты в бригадах аккуратные, без вредных
+  привычек, вежливые люди.</div>
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img src="./img/car.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text" id="usl">При установке и покупке у нашей компании сплит систем, напольно-потолочных, кассетных кондиционеров 
+        ДОСТАВКА БЕСПЛАТНАЯ.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./img/free-clock-part-2free-clock-2_svgrepo.com.png" class="card-img-top" alt="..." id="clock">
+    <div class="card-body">
+      <p class="card-text" id="usl">Даем Гарантию на купленные кондиционеры 3 года! В сетевых магазинах или других интернет-
+        магазинах Вам дадут гарантию на 1 год или попросят доплату за дополнительный срок.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./img/discount_svgrepo.com.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Предоставляем гибкую систему скидок и подстраиваемся под индивидуальные пожелания
+        клиента.</p>
+    </div>
+  </div>
+</div>
+<a href="./str2.html"><button><p>Больше информации</p></button></a>
+</div>
+    </div>
+    <div class="section-forth" id="sec4">
+      <div class="container-uslugi">
+        <div class="zag" id="zag_usl">наша схема работы с клиентом</div>
+        <p class="usl"> &bull;  Если у вас нет вопросов по расположению внутренних и наружных блоков, и вы уже знаете какую
+модель кондиционера 
+хотите приобрести, то вы просто выбираете удобное для Вас время, и
+специалисты приезжают с кондиционером на место. Предоплаты за кондиционер не требуется,
+оплачивается при получении. Установка также оплачивается после пуско-наладки и консультации
+по использованию кондиционера. 
+Подписывается договор и гарантийные обязательства,
+передаются платежные документы.
+</p>
+<p class="usl"> &bull; Если у Вас есть вопросы, то наш специалист выезжает на место БЕСПЛАТНО и консультирует по
+всем нюансам, 
+тогда как конкуренты консультируют по телефону и потом выясняется что монтаж
+будет стоить в разы дороже.
+Мы делая свою работу хотим что бы у нас остались взаимно хорошие
+воспоминания и надеемся на дальнейшее сотрудничество с Вами!
+Наш специалист подскажет в каком месте лучше установить внутренний блок кондиционера
+(Panasonic, Hitachi) или др.,
+так что бы вас не продуло, какую лучше выбрать систему охлаждения,
+</p>
+        <a href="./str4.html"><button><p>Наши услуги</p></button></a>
+      </div>
+    </div>
+    <div class="section-third" id="sec3">
+      <div class="obl3" style="position: absolute;" >
+        <img src="./img/abstract-smoke-cloud-texture-3sa1hg27vzfdxatm 3.svg" id="obl3" style="position: relative;">
+        </div>
+        <div class="container-condei">
+        <div class="zag" id="condei">Кондиционеры</div>
+          <div class="cards">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card mb-3" style="width: 18rem;">
+              <div class="zag2">KENTATSU, ICHI</div>
+              <div class="card-body">
+                      <input checked type="radio" name="name1" id="input1">
+                      <input type="radio" name="name1" id="input2">
+                      <input type="radio" name="name1" id="input3">
+                      <label for="input1" id="label1" >KSGI21HFRN1</label>
+                      <label for="input2" id="label2" > KSGI26HFRN1</label>
+                      <label for="input3" id="label3" >KSGI35HFRN1</label>
+                      <div class="perecluch">
+                          <div class="text text1"><img src="./img/kentar.png">
+                            Кондиционер KENTATSU (Кентатсу) ICHI KSGI21HFRN1 – это практичное 
+                            и экономически выгодное решение для вашей квартиры. Внутренний блок 
+                            модели имеет утонченный дизайн и компактные размеры.
+                             Настенный кондиционер с базовым набором рабочих режимов
+                              (охлаждение, обогрев, осушение, вентиляция) и различными 
+                              полезными функциями (таймер, теплый пуск, самодиагностика, 
+                              самоочистка, автоматическая оттайка, локальный микроклимат и пр.).
+                               Тип компрессора в наружном блоке – On/Off.
+                               <h5 class="cena">26 990₽</h5>
+              
+                          </div>
+                          <div class="text text2"><img src="./img/kentar.png">
+                             Кондиционер KENTATSU (Кентатсу) ICHI KSGI26HFRN1 – это практичное и экономически 
+                             выгодное решение для вашей квартиры. Внутренний блок модели имеет 
+                             утонченный дизайн и компактные размеры. Настенный кондиционер с 
+                             базовым набором рабочих режимов (охлаждение, обогрев, осушение, вентиляция) 
+                             и различными полезными функциями (таймер, теплый пуск, самодиагностика, самоочистка, 
+                             автоматическая оттайка, локальный микроклимат и пр.). Тип компрессора в наружном блоке – On/Off.
+                             <h5 class="cena">29 990₽</h5>
+              
+                          </div>
+                          <div class="text text3"><img src="./img/kentar.png">
+                            Кондиционер KENTATSU (Кентатсу) ICHI KSGI35HFRN1 – это практичное 
+                            и экономически выгодное решение для вашей квартиры. Внутренний блок 
+                            модели имеет утонченный дизайн и компактные размеры. Настенный кондиционер
+                            с базовым набором рабочих режимов (охлаждение, обогрев, осушение, вентиляция) 
+                            и различными полезными функциями (таймер, теплый пуск, самодиагностика, 
+                            самоочистка, автоматическая оттайка, локальный микроклимат и пр.). 
+                            Тип компрессора в наружном блоке – On/Off.
+                             <h5 class="cena">37 990₽</h5></div>
+                            
+                        </div>
+                </div> 
+
+                  </div>
+                  <div class="card mb-3" style="width: 18rem;">
+              <div class="zag2">OASIS, H-I</div>
+                <div class="card-body">
+                  <div class="section section-flags">
+                    <div class="radio">
+                        <input checked type="radio" name="name2" id="input4">
+                        <input type="radio" name="name2" id="input5">
+                        <input type="radio" name="name2" id="input6">
+                        <label for="input4" id="label4" >H-7I</label>
+                        <label for="input5" id="label5" >H-9I</label>
+                        <label for="input6" id="label6" >H-12I</label>
+                        <div class="perecluch">
+                            <div class="text text4"><img src="./img/oasis.png">
+                             Инверторный кондиционер OASIS H-7I Тихий инверторный компрессор Landa завода GREE позволяет организовать комфортный микроклимат для небольших помещений до 20 кв.м.Функция IFEEL активирует датчик температуры, встроенный в пульт дистанционного управления. Благодаря данному режиму сплит-система будет регулировать температуру непосредственно рядом с людьми, обеспечивая максимальный комфорт.  Эффективный и доступный комплект для тех, кто ценит собственное время и удобство.<h5 class="cena">27 990₽</h5>
+                
+                            </div>
+                            <div class="text text5"><img src="./img/oasis.png">
+                              Инверторный кондиционер OASIS H-9I Тихий инверторный компрессор Landa завода GREE позволяет организовать комфортный микроклимат для небольших помещений до 26 кв.м.Функция IFEEL активирует датчик температуры, встроенный в пульт дистанционного управления. Благодаря данному режиму сплит-система будет регулировать температуру непосредственно рядом с людьми, обеспечивая максимальный комфорт.
+                              <h5 class="cena">31 990₽</h5>
+                
+                            </div>
+                            <div class="text text6"><img src="./img/oasis.png">
+                              Инверторный кондиционер OASIS H-12I Тихий инверторный компрессор Landa завода GREE позволяет организовать комфортный микроклимат для небольших помещений до 35 кв.м.Функция IFEEL активирует датчик температуры, встроенный в пульт дистанционного управления. Благодаря данному режиму сплит-система будет регулировать температуру непосредственно рядом с людьми, обеспечивая максимальный комфорт.
+                              <h5 class="cena">33 990₽</h5></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                  </div>
+                  <div class="card mb-3" style="width: 18rem;">
+              <div class="zag2">OASIS, H</div>
+              <div class="card-body">
+                <div class="section section-flags">
+                  <div class="radio">
+                      <input checked type="radio" name="name3" id="input7">
+                      <input type="radio" name="name3" id="input8">
+                      <input type="radio" name="name3" id="input9">
+                      <label for="input7" id="label7" >OASIS H-7</label>
+                      <label for="input8" id="label8" >OASIS H-9</label>
+                      <label for="input9" id="label9" >OASIS H-12</label>
+                      <div class="perecluch">
+                          <div class="text text7"><img src="./img/oasis.png">
+                           Oasis H-7 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 23 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE). Функция Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">22 990₽</h5>
+                          </div>
+                          <div class="text text8"><img src="./img/oasis.png">
+                           Oasis H-9 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 23 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE). Функция Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">24 990₽</h5>
+                          </div>
+                          <div class="text text9"><img src="./img/oasis.png">
+                           Oasis H-12 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 35 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE), известным своей долговечностью и эффективностью. Функция 
+                            Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Вы можете регулировать яркость светодиодного дисплея, чтобы 
+                            он не мешал вам ночью. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">31 990₽</h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card mb-3" style="width: 18rem;">
+            <div class="zag2">ROYAL CLIMA</div>
+            <div class="card-body">
+              <div class="section section-flags">
+                <div class="radio">
+                    <input checked type="radio" name="name5" id="input11">
+                    <input type="radio" name="name5" id="input12">
+                    <input type="radio" name="name5" id="input13">
+                    <label for="input11" id="label11" >RC-GL22HN/IN</label>
+                    <label for="input12" id="label12" >RC-GL28HN/IN</label>
+                    <label for="input13" id="label13" >RC-PD35HN/IN</label>
+                    <div class="perecluch">
+                        <div class="text text11"><img src="./img/royal.png">
+                            Прекрасная модель сплит-системы Royal Clima (Роял Клима) GLORIA RC-GL22HN идеальна для размещения в небольших помещениях до 22 кв.м. Тонкая хромированная вставка на передней панели является украшением внутреннего блока и подчёркивает идеальные его формы. За белоснежным светопрозрачным пластиком скрыт LED- дисплей.<h5 class="cena">28 590₽</h5>
+                        </div>
+                        <div class="text text12"><img src="./img/royal.png">
+                            Настенная модель кондиционера Royal Clima (Роял Клима) GLORIA RC-GL28HN оснащена функцией запоминания положения жалюзи. После выключения и повторного включения кондиционера жалюзи будут установлены в положение, ранее заданное пользователем. Установленный надежный компрессор японского производства отвечает за работу всей сплит-системы, а дополнительная звукоизоляция компрессора обеспечивает низкий уровень наружного блока.
+                            <h5 class="cena">31 590₽</h5>
+                            </div>
+                            <div class="text text13"><img src="./img/royal.png">
+                                Кондиционер ROYAL Clima PANDORA RC-PD35HN обладает минималистичным и одновременно притягивающим взгляд дизайном. 
+                                К безусловным преимуществам серии можно отнести многоступенчатую систему очистки воздуха состоящую из 
+                                фильтров тонкой очистки Silver Ion и Active Carbon, а так же функции ионизации, значительно улучшающей 
+                                качество воздуха в помещении, уничтожающей вредоносные химические соединения и микробы(только для моделей 
+                                с индексами 22,28 и 35).<br> Помимо этого сплит-система оснащена функцией равномерного распределения воздушного 
+                                потока 3D AUTO AIR, которая позволяет управлять горизонтальными и вертикальными жалюзи внутреннего блока 
+                                с пульта управления, обеспечивая равномерное распределение воздушного потока по всему помещению или же его 
+                                фиксацию в одном необходимом направлении. А благодаря функции IFEEL вы всегда сможете отследить изменение 
+                                температурного показателя в месте нахождения пользователя.    
+                            <h5 class="cena">42 490₽</h5>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem;">
+            <div class="zag2">FUNAI</div>
+              <div class="card-body">
+                <div class="section section-flags">
+                  <div class="radio">
+                      <input checked type="radio" name="name6" id="input14">
+                      <input type="radio" name="name6" id="input15">
+                      <input type="radio" name="name6" id="input16">
+                      <label for="input14" id="label14" >RAC-SN20HP.D04/S</label>
+                      <label for="input15" id="label15" >RAC-SN25HP.D04/S</label>
+                      <label for="input16" id="label16" >RAC-SN35HP.D04/S</label>
+                      <div class="perecluch">
+                          <div class="text text14"><img src="./img/funai.png" id="fun">
+                            FUNAI (Фунай) SENSEI RAC-SN20HP.D04 представляет собой экономичную настенную сплит-систему, которая станет прекрасным выбором для небольшой спальни или другой комнаты, где нужна не только комфортная атмосфера, но и тишина. Внутренний блок оборудован встроенным ионизатором, который вырабатывает отрицательно заряженные частицы, что способствует устранению вредных микроорганизмов.
+                          <h5 class="cena">28 990₽</h5>
+                          </div>
+                          <div class="text text15"><img src="./img/funai.png" id="fun">
+                            Бесшумная инверторная сплит-система Funai (Фунай) SENSEI RAC-I-SN25HP.D04 отличается элегантным дизайном и передовым функционалом. Автоматическое управление воздушным потоком в четырех направлениях обеспечивает полноценный охват помещения, а технология DС PAM Inverter позволяет плавно изменять температуру и поддерживать ее точно на заданном уровне. Входящие в комплект фильтры с серебром делают воздух чистым и свежим.
+                          <h5 class="cena">31 390₽</h5>
+                          </div>
+                          <div class="text text16"><img src="./img/funai.png" id="fun">
+                            Модель настенной сплит-системы FUNAI (Фунай) SENSEI RAC-SN35HP.D04 поможет Вам избавиться от проблемы некомфортной атмосферы в помещении. Данный кондиционер будет актуален круглый год, поскольку работает и на охлаждение, и на обогрев. Предусмотренная в нем система фильтрации и ионизации воздуха позволит сделать воздух в комнате гораздо более чистым.
+                          <h5 class="cena">40 490₽</h5></div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="card mb-3" style="width: 18rem;">
+                <div class="zag2">OPENAIR BY ZILON</div>
+                <div class="card-body">
+                        <input checked type="radio" name="name11" id="input25">
+                        <input type="radio" name="name11" id="input26">
+                        <input type="radio" name="name11" id="input27">
+                        <label for="input25" id="label25" >ZFO 100 Z</label>
+                        <label for="input26" id="label26" >ZFO 125 Z </label>
+                        <label for="input27" id="label27" >ZFO 160 Z</label>
+                        <div class="perecluch">
+                            <div class="text text25"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                               Доверьтесь нашему канальному вентилятору Zilon ZFO 100 Z для эффективной вентиляции в промышленных условиях — надежность, производительность и удобство в одном оборудовании. Производитель гарантирует, что аппарат выполняет все поставленные перед ним требования, обеспечивая эффективную работу без создания дополнительных неудобств для потребителя.<h5 class="cena">7 133₽</h5>
+                            </div>
+                            <div class="text text26"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                                Рассматриваемый канальный вентилятор Zilon ZFO 125 Z — это вершина надежности в обеспечении непрерывной подачи воздуха по круглым воздуховодам в помещениях различного назначения. Это оборудование не просто идеально подходит для промышленных задач — оно становится их незаменимым решением благодаря высочайшей производительности и надежности.<h5 class="cena">7 272₽</h5>
+                            </div>
+                            <div class="text text27"><img src="./img/Zilon_ZFO.jpg" id="zilo">
+                                Каждый аспект канального вентилятора Zilon (Зилон) ZFO 160 Z разработан с учетом требований самых требовательных клиентов. В комплект поставки этого вентилятора входят клеммная коробка и кронштейны, обеспечивая удобный и быстрый монтаж. Это значительно упрощает процесс установки, делая его доступным даже для непрофессионалов.<h5 class="cena">8 379₽</h5></div>
+                        </div>
+              </div>
+              </div> 
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!-- <div class="card mb-3" style="width: 18rem;">
+              <div class="zag2">OASIS, H</div>
+              <div class="card-body">
+                <div class="section section-flags">
+                  <div class="radio">
+                      <input checked type="radio" name="name3" id="input7">
+                      <input type="radio" name="name3" id="input8">
+                      <input type="radio" name="name3" id="input9">
+                      <label for="input7" id="label7" >OASIS H-7</label>
+                      <label for="input8" id="label8" >OASIS H-9</label>
+                      <label for="input9" id="label9" >OASIS H-12</label>
+                      <div class="perecluch">
+                          <div class="text text7"><img src="./img/oasis.png">
+                           Oasis H-7 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 23 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE). Функция Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">22 990₽</h5>
+                          </div>
+                          <div class="text text8"><img src="./img/oasis.png">
+                           Oasis H-9 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 23 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE). Функция Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">24 990₽</h5>
+                          </div>
+                          <div class="text text9"><img src="./img/oasis.png">
+                           Oasis H-12 — компактное и эффективное решение для создания комфортного микроклимата в помещениях
+                            площадью до 35 квадратных метров. Этот кондиционер сочетает в себе высокую производительность и 
+                            множество полезных функций, обеспечивая приятную прохладу летом и тепло зимой. Кондиционер оснащен
+                            надежным компрессором LANDA (GREE), известным своей долговечностью и эффективностью. Функция 
+                            Smart автоматически регулирует работу кондиционера для поддержания оптимальной температуры и экономии 
+                            энергии. Функция Super позволяет быстро охладить или обогреть помещение, а функция I Feel использует 
+                            датчик температуры на пульте дистанционного управления для более точной настройки температуры в зоне 
+                            вашего пребывания. Режим сна обеспечивает комфортные условия для отдыха, автоматически регулируя 
+                            температуру и снижая уровень шума. Вы можете регулировать яркость светодиодного дисплея, чтобы 
+                            он не мешал вам ночью. Низкий уровень шума делает его подходящим для спален и детских комнат.
+                            Функция самодиагностики неисправностей помогает быстро выявлять и устранять проблемы.
+                            Функция самоочистки внутреннего блока (технология Self-Clean) поддерживает гигиену и предотвращает
+                            образование плесени.
+                            <h5 class="cena">31 990₽</h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="card mb-3" style="width: 18rem;">
+            <div class="zag2">X-COMFORT, hitachi</div>
+            <div class="card-body">
+              <div class="section section-flags">
+                <div class="radio">
+                    <input checked type="radio" name="name4" id="input10">
+                    <input type="radio" name="name4" id="input11">
+                    <input type="radio" name="name4" id="input12">
+                    <label for="input10" id="label10" >RAK-18REF</label>
+                    <label for="input11" id="label11" >RAK-25REF</label>
+                    <label for="input12" id="label12" >RAK-35REF</label>
+                    <div class="perecluch">
+                        <div class="text text10"><img src="./img/x-com 1.png">
+                          Настенная сплит-система Hitachi (Хитачи) X-Comfort RAC-18WEF/RAK-18REF с инверторным управлением мощностью обеспечит комфортный микроклимат в помещении площадью до 50 кв.м. Внутренний блок модели имеет компактные размеры и современный дизайн. Кондиционер поддерживает 4 основных режима работы: обогрев, охлаждение, вентиляция, осушение. ИК-пульт входит в комплект поставки.<h5 class="cena">72 900₽</h5>
+            
+                        </div>
+                        <div class="text text11"><img src="./img/x-com 1.png">
+                          Настенный внутренний блок Hitachi (Хитачи) X-COMFORT RAK-25REF отличается современным дизайном и предназначен для бытового использования. Линейка представлена 4 моделями мощностью от 2,0 до 5,0 кВт. Данные кондиционеры оборудованы надежным инверторным компрессором, благодаря которому оборудование потребляет на порядок меньше электроэнергии и с высокой точностью поддерживает температуру воздуха в помещении.<h5 class="cena">76 900₽</h5>
+            
+                        </div>
+                        <div class="text text12"><img src="./img/x-com 1.png">
+                          Сплит-система Hitachi (Хитачи) X-Comfort RAC-35WEF/RAK-35REF относится к категории инверторного оборудования и устанавливается на стену. Ее мощности достаточно для кондиционирования и обогрева комнат площадью 35 м2. Также есть режимы осушения и вентиляции воздуха. Для обеспечения стабильной работы кондиционер использует функцию самодиагностики, при активации которой происходит автоматический поиск и устранение системы ошибок.<h5 class="cena">83 900₽</h5></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="width: 18rem;">
+          <div class="zag2">MULTI PREMIUM, hitachi</div>
+          <div class="card-body">
+            <div class="section section-flags">
+              <div class="radio">
+                  <input checked type="radio" name="name5" id="input13">
+                  <input type="radio" name="name5" id="input14">
+                  <input type="radio" name="name5" id="input15">
+                  <label for="input13" id="label13" >RAM-33NP2E+RAK-15QPE+RAK-18RPE</label>
+                  <div class="perecluch">
+                      <div class="text text13"><img src="./img/mult.png">
+                      Hitachi (Хитачи) Multizone Premium RAM-33NP2E/ RAK-15QPE*2 - стильная и функциональная мульти сплит-система для обслуживания двух комнат. Модель имеет максимальный класс энергоэффективности благодаря "умному" инверторному управлению, режиму Eco и датчику присутствия, а низкий уровень шума позволяет использовать ее даже в детских спальнях. Усовершенствованная конструкция существенно расширяет возможности монтажа системы.<h5 class="cena">176 400₽</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div> -->
+      
+          </div>
+          <a href="./str3.html" id="kond"><button><p>Больше техники</p></button></a>
+          </div>
+          
+            </div>
+         <div class="section-fifth" id="sec5">
+          <div class="container-rabota">
+            <div class="zag">оставьте заявку на вызов мастера</div>
+            <div class="applications">
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio">
+            <label for="tel">Телефон</label>
+            <input type="text" id="tel">
+            <label for="adr">Адрес</label>
+            <input type="text" id="adr">
+            <label for="kond">Напишите полное название кондиционера</label>
+            <input type="text" id="kondiz" placeholder="KENTATSU, ICHI; KSGI21HFRN1">
+            <div class="chek"><input type="checkbox" id="sogl"><label for="sogl" id="sogl_lab">Даю согласие на обработку персональных данных</label></div>
+          </div>
+          <button id="otp"><p>Отправить заявку</p></button>
+        </div>
+        </div>
+        
+        <div class="section-seven" id="sec7">
+          <div class="container-soc">
+            <div class="zag">
+              наши контакты
+            </div>
+            <div class="podzag">
+              Остались вопросы - обращайтесь!
+            </div>
+<div class="icons">
+  <a target="_blank" href="https://viber.click/79308070709">
+  <div class="card-icon">
+    <img src="./img/viber_svgrepo.com.png" alt="">
+    <div class="zag2">Viber</div>
+  </div></a><a href="https://web.telegram.org/k/#@aIVtoN">
+  <div class="card-icon">
+    <img src="./img/telegram_svgrepo.com.png" alt="">
+    <div class="zag2">Telegram</div>
+  </div></a><a href=mailto:ivanov.postbox@gmail.com?>
+  <div class="card-icon">
+    <img src="./img/gmail_svgrepo.com.png" alt="">
+    <div class="zag2">Gmail</div>
+  </div></a>
+</div>
+          </div>
+        </div>
+        <div class="section-footer" style="width: 100%;">
+<div class="container-footer">
+  <div class="information">
+    <div class="left">т.: 89308070709<br>
+      ООО«Мигвана» 
+      |   КПП 525601001
+      |   ИНН 5256124766<br>
+      ОГРН 1135256007886<br>
+      БИК 048073770 <br>
+      Рас. счет
+      40702810710000962735<br>
+      603016, г. Нижний Новгород
+      ул. Лескова д. 10, кв. 2<br>
+      АО «ТБанк»<br>
+      Кор. счет банка
+      30101810145250000974<br>
+      127287, г. Москва, ул. Хуторская 2-я, д. 38А, стр. 26
+      </div>
+    <div class="mid"><div class="hrefs">
+      <a href="#sec5">Наши работы</a>
+      <a href="#sec4">услуги</a>
+      <a href="#sec3">каталог</a>
+      <a href="#sec1">о нас</a>
+    </div></div>
+    <div class="right">HolodNiNo - установка, обслуживание, ремонт и продажа бытовой,
+      промышленной и полупромышленной климатической техники.</div>
+    
+  </div>
+  <div class="director">
+    <p>Holodnino
+      © 2024</p>
+  </div>
+</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./enterkab.js"></script>
+<script src="./index.js"></script>
+
+
+
+
+
+
+
+<!-- // function login() {
+
+//   const username = document.getElementById('username').value;
+//   const password = document.getElementById('password').value;
+//   const loginBtn = document.getElementById('loginBtn');
+
+
+ 
+//   const validLogin = 'admin';
+//   const validPassword = '1234';
+//   let isLoggedIn = false;
+
+// loginBtn.addEventListener('click', () => {
+//   if (isLoggedIn) {
+//     window.location.href = 'adminka'; // замените на ваш URL личного кабинета
+//   }
+// });
+
+//   if (username === validLogin && password === validPassword) {
+//     window.location.href = 'adminka.html'; 
+//     return false
+//     //  isLoggedIn = true;
+//     // console.log("true")
+
+
+//   } else {
+//     alert('Неверный логин или пароль');
+    
+ 
+//   }
+  
+// } -->
+
+
+
